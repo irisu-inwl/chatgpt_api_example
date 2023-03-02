@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "chatgpt-example"
+version = "0.1.0"
+description = ""
+authors = ["irisuinwl <iris.dimension.eee@gmail.com>"]
+readme = "README.md"
+packages = [{include = "chatgpt_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
