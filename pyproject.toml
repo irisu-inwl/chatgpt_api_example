@@ -9,6 +9,7 @@ packages = [{include = "chatgpt_example"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 openai = "^0.27.0"
+streamlit = "^1.19.0"
 
 
 [build-system]
